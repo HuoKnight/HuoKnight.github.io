@@ -1,69 +1,62 @@
-    			#maintitle{
-				text-align:center;
-				font-size:3vw;
-				color:FireBrick;
-				text-shadow: 0 1px 0 #888, 0 2px 0 #888,
-        			        0 3px 0 #888, 0 4px 0 #888,
-        			        0 5px 0 #888, 0 6px 0 #888,
-        			        0 7px 0 #888, 0 8px 0 #888,
-        			        0 9px 0 #888, 0 10px 0 #888,
-        			        0 11px 0 #888, 0 12px 0 #888,
-        			        0 20px 30px rgba(132, 100, 100, 1);
-    			}
-    			body {
-  				font-family: 'Brush Script MT', cursive;
-  			}
-    			.header {
-  				border-radius: 15px 50px 30px;
-  				background: #CFC400;
-				position: absolute;
-  				padding: calc(2vw + 1px);
-				justify-content: center;
-				display: flex;
-				align-items: center;
-				font-size:2vw;
-		       }
-    		       body{
-	    			font-family: 'Blippo', fantasy;
-                       }
-		       .links {
-			       	width: 150px;
-				height: 25px;
-		       }
-		       .cp {
-			       width: 210px;
-			       height: 25px;
-			       left: 200px;
-			       bottom: 200px;
-		       }
-		       .img {
-			       position: absolute;
-			       align-items: center;
-			       justify-content: center;
-			}
-		       .pmc {
-			       width: 75px;
-			       height: 75px;
-			       top: 300px;
-			       left: 80px;
-		       }
-		       .tim-for {
-			       width: 85px;
-			       height: 85px;
-			       bottom: 100px;
-			       left: 50px;
-		       }
-		       .yt {
-			       width: 120px;
-			       height: 65px;
-			       bottom: 115px;
-			       left: 150px;
-		       }
-		       #pmc-link-text{
-			       position: relative;
-			       bottom: 50;
-			       right: 50;
-		       {
-    		       body{
-	    			font-family: 'Blippo', fantasy;
-                       }
+#maintitle{
+	text-align:center;
+	font-size:3vw;
+	color:FireBrick;
+	text-shadow: 0 1px 0 #888, 0 2px 0 #888,
+        0 3px 0 #888, 0 4px 0 #888,
+        0 5px 0 #888, 0 6px 0 #888,
+        0 7px 0 #888, 0 8px 0 #888,
+        0 9px 0 #888, 0 10px 0 #888,
+        0 11px 0 #888, 0 12px 0 #888,
+        0 20px 30px rgba(132, 100, 100, 1);
+}
+body {
+  	font-family: 'Brush Script MT', cursive;
+}
+.header {
+  	border-radius: 15px 50px 30px;
+  	background: #CFC400;
+	position: absolute;
+  	padding: calc(2vw + 1px);
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size:2vw;
+}
+body{
+   	font-family: 'Blippo', fantasy;
+}
+.links {
+       	width: 150px;
+	height: 25px;
+} 
+.cp {
+       width: 210px;
+       height: 25px;
+       left: 200px;
+       bottom: 200px;
+}
+.img {
+       position: absolute;
+       align-items: center;
+       justify-content: center;
+}
+.pmc {
+       width: 75px;
+       height: 75px;
+       top: 300px;
+       left: 80px;
+}
+.tim-for {
+       width: 85px;
+       height: 85px;
+       bottom: 100px;
+       left: 50px;
+}
+.yt {
+       width: 120px;
+       height: 65px;
+       bottom: 115px;
+       left: 150px;
+}
+
