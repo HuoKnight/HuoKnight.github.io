@@ -19,17 +19,14 @@
     			body {
   				font-family: 'Brush Script MT', cursive;
   			}
-    			#links {
+    			.header {
   				border-radius: 15px 50px 30px;
   				background: #CFC400;
-				position: static;
+				position: absolute;
   				padding: calc(2vw + 10px);
 				justify-content: center;
 				display: flex;
 				align-items: center;
-  				width: 100px;
-  				height: 20px;
-				left: 150px;
 				font-size:2vw;
 		       }
     		       body{
@@ -40,19 +37,8 @@
 			       bottom: 50;
 			       right: 50;
 		       {
-    			#cool-people {
-  				border-radius: 15px 50px 30px;
-  				background: #CFC400;
-				position: static;
-  				padding: calc(2vw + 10px);
-				justify-content: center;
-				display: flex;
-				align-items: center;
+    			.links {
   				width: 150px;
-  				height: 20px;
-				top: 100px;
-				left: 150px;
-				font-size:2vw;
 		       }
     		       body{
 	    			font-family: 'Blippo', fantasy;
@@ -64,7 +50,7 @@
 			<h1 id="maintitle">
 				FireboltAA's Datapack Thingy
 			</h1>
-			<h2 id="links">
+			<h2 class="header links">
 				Links
 			</h2>
 			<a href="https://www.planetminecraft.com/member/fireboltaa/" target="_blank">
