@@ -59,4 +59,13 @@ body{
        bottom: 111px;
        left: 150px;
 }
+.desc-txt {
+	font-size: 1vw;
+	postion: absolute;
+	color: GoldenRod;
+}
+.tfdesc {
+	bottom: 50px;
+	left: 100px;
+}
 
