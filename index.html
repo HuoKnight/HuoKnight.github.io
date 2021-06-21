@@ -54,16 +54,16 @@
 			       left: 80px;
 		       }
 		       .tim-for {
-			       width: 75px;
-			       height: 75px;
+			       width: 85px;
+			       height: 85px;
 			       bottom: 100px;
 			       left: 50px;
 		       }
 		       .yt {
 			       width: 120px;
 			       height: 65px;
-			       bottom: 110px;
-			       left: 110px;
+			       bottom: 105px;
+			       left: 130px;
 		       }
 		       #pmc-link-text{
 			       position: relative;
@@ -90,7 +90,7 @@
 				<img src="https://cdn.discordapp.com/attachments/766023044619173899/856342160873357312/pmc_logo.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img pmc">
 		        </a>
 			<a href="https://discord.gg/4gTXrfDZ6n" target="_blank">
-				<img src="https://cdn.discordapp.com/attachments/766023044619173899/856574941474324513/timberforgepfp.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img tim-for">
+				<img src="https://cdn.discordapp.com/attachments/766023044619173899/856574941474324513/timberforgepfp.png" onmouseover="bigImgTF(this)" onmouseout="normalImgTF(this)" class="img tim-for">
 			</a>
 			<a href="https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw" target="_blank">
 				<img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Emblem.png" onmouseover="bigImgYT(this)" onmouseout="normalImgYT(this)" class="img yt">
@@ -103,6 +103,14 @@
 			function normalImg(x) {
 				  x.style.height = "75px";
 				  x.style.width = "75px";
+			}
+			function bigImgTF(x) {
+  				  x.style.height = "95px";
+				  x.style.width = "95px";
+			}
+			function normalImgTF(x) {
+				  x.style.height = "85px";
+				  x.style.width = "85px";
 			}
 			function bigImgYT(x) {
   				  x.style.height = "75px";
