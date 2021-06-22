@@ -53,7 +53,13 @@ body{
        bottom: 100px;
        left: 50px;
 }
-.yt {
+.chim-bot {
+	width 90px;
+	height: 90px;
+	bottom: 100px;
+	left: 300px;
+}
+.yt-pos1 {
        width: 120px;
        height: 65px;
        bottom: 111px;
