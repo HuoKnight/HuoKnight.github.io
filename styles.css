@@ -85,6 +85,8 @@ body{
 	left: 412px;
 }
 .constr {
+	width: 100px;
+	height: 50px;
 	top: 150px;
 	left: 450px;
 }
