@@ -65,6 +65,12 @@ body{
        bottom: 111px;
        left: 150px;
 }
+.yt-pos2 {
+       width: 120px;
+       height: 65px;
+       bottom: 111px;
+       left: 450px;
+}
 .desc-txt {
 	font-size: 1.5vw;
 	position: absolute;
