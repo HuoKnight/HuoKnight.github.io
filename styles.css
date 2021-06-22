@@ -81,9 +81,14 @@ body{
 	left: 83px;
 }
 .cbdesc {
+	width: 25px;
+	height: 75px;
 	bottom: 40px;
 	left: 412px;
 }
+.dddesc {
+	bottom: 40px;
+	left: 710px;
 .constr {
 	width: 110px;
 	height: 50px;
