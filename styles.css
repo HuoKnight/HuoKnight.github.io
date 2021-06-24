@@ -65,6 +65,12 @@ body{
 	bottom: 90px;
 	left: 710px;
 }
+.tag-link {
+	right: 80px;
+	top: 300px;
+	height: 75px;
+	width: 75px;
+}
 .yt-pos1 {
        width: 120px;
        height: 65px;
