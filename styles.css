@@ -43,6 +43,8 @@ body{
 	background: #455D8E;
 	position: absolute;
 	display: grid;
+	padding-left: calc(2vw+10px);
+	padding-right:  calc(2vw+10px);
 	justify-content: center;
 	font-size: 1.5vw;
 }
