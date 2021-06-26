@@ -36,6 +36,14 @@ body{
        left: 345px;
        bottom: 200px;
 }
+.discord {
+	left: 450px;
+	top: 200px;
+	border-radius: 30px;
+	backround: #5a5d61;
+	position: absolute;
+	padding: calc(2vw + 20px);
+}
 .img {
        position: absolute;
        align-items: center;
