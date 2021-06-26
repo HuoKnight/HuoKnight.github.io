@@ -44,7 +44,7 @@ body{
 	position: absolute;
 	padding: calc(2vw + 20px);
 	display: flex;
-	font-size: 1vw;
+	font-size: 1.5vw;
 }
 body {
    	font-family: 'Blippo', fantasy;
