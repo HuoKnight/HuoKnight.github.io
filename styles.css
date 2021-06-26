@@ -44,8 +44,8 @@ body{
 	color: #5A64EC;
 	position: absolute;
 	display: grid;
-	padding-left: 700px;
-	padding-right:  700px;
+	padding-left: 65px;
+	padding-right:  65px;
 	justify-content: center;
 	font-size: 1.5vw;
 }
