@@ -130,7 +130,9 @@ body {
 }
 .grid-top {
   align-self:start;
+  color: #5A64EC;
 }
 .grid-bottom {
   align-self:end;
+  color: #5A64EC;
 }
