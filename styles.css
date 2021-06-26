@@ -136,3 +136,6 @@ body {
   align-self:end;
   color: #FFFFFF;
 }
+body {
+	font-family: 'Sarif';
+}
