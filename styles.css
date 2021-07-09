@@ -147,7 +147,8 @@ body {
   position:absolute;
   
   /* vertically center */
-  top: 25px;
+  top: 1px;
+  left: 10px;
   
   /* basic styles */
   width:80px;
