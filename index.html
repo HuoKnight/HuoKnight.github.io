@@ -57,6 +57,8 @@
 			</div>
 			<script>
 			function copyDiscTag() {
+				  var tooltip = document.querySelectorAll('.tooltip:before');
+				  tooltip.style.display = 'block';
 				  navigator.clipboard.writeText("FireboltAA#3166")
 			}
 			function bigImg(x) {
