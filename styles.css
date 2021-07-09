@@ -172,4 +172,7 @@ body {
   left:initial;
   margin:initial;
   bottom: 10px;
+  /* set new values */
+  right:100%;
+  margin-right:1px;
 }
