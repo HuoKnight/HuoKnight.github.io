@@ -167,3 +167,12 @@ body {
 .tooltip:hover:before {
   display:block;
 }
+.tooltip.left:before {
+  /* reset defaults */
+  left:initial;
+  margin:initial;
+
+  /* set new values */
+  right:100%;
+  margin-right:15px;
+}
