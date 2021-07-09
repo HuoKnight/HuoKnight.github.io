@@ -164,6 +164,3 @@ body {
 
   display:none; /* hide by default */
 }
-.tooltip:hover:before {
-  display:block;
-}
