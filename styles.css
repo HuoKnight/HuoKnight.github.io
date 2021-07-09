@@ -147,12 +147,7 @@ body {
   position:absolute;
   
   /* vertically center */
-  top:50%;
-  transform:translateY(-50%);
-  
-  /* move to right */
-  left:100%;
-  margin-left:15px; /* and add a small left margin */
+  top: 25px;
   
   /* basic styles */
   width:80px;
