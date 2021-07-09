@@ -139,3 +139,6 @@ body {
 body {
 	font-family: 'Sarif';
 }
+.tooltip {
+	position: relative;
+}
