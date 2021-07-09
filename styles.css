@@ -171,9 +171,9 @@ body {
   /* reset defaults */
   left:initial;
   margin:initial;
-  top: 50px;
+  top: 10px;
 
   /* set new values */
-  right:25%;
+  right:13%;
   margin-right:15px;
 }
