@@ -173,3 +173,6 @@ body {
   display: none;
   border-color: black transparent transparent transparent;
 }
+.tooltip:hover:before, .tooltip:hover:after {
+  display:block;
+}
