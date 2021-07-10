@@ -57,14 +57,14 @@
 			</div>
 			<script>
 			function resetCopy() {
-				var tooltipBefore = document.getElementById("disctag")
-				var tooltipMid = tooltipBefore.getAttribute("data-copyText")
+				let tooltipBefore = document.getElementById("disctag")
+				let tooltipMid = tooltipBefore.getAttribute("data-copyText")
 				tooltipMid.setAttribute("data-copyText", "Click to Copy")
 			}
 			function copyDiscTag() {
 				navigator.clipboard.writeText("FireboltAA#3166")
-				var tooltipBefore = document.getElementById("disctag")
-				var tooltipMid = tooltipBefore.getAttribute("data-copyText")
+				let tooltipBefore = document.getElementById("disctag")
+				let tooltipMid = tooltipBefore.getAttribute("data-copyText")
 				tooltipMid.setAttribute("data-copyText", "Copied!")
 			}
 			function bigImg(x) {
