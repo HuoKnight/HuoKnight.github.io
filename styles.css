@@ -167,9 +167,9 @@ body {
   content: "";
   backround: #555;
   position: absolute;
-  left: 50px;
-  bottom: 35px;
-  border:10px solid #000;
+  left: 65px;
+  bottom: 25px;
+  border:10px solid #555;
   display: none;
   border-color: black transparent transparent transparent;
 }
