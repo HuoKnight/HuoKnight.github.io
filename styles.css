@@ -163,3 +163,10 @@ body {
 .tooltip:hover:before {
   display:block;
 }
+.toltip:after {
+  content: "";
+  position: absolute;
+  left: 43px;
+  bottom: 45px;
+  border:10px solid #000;
+  border-color: black transparent transparent transparent;
