@@ -167,11 +167,11 @@ body {
   content: "";
   backround: #555;
   position: absolute;
-  left: 65px;
+  left: 70px;
   bottom: 25px;
   border:10px solid #555;
   display: none;
-  border-color: black transparent transparent transparent;
+  border-color: #555 transparent transparent transparent;
 }
 .tooltip:hover:before, .tooltip:hover:after {
   display:block;
