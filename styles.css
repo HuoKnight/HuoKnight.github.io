@@ -167,8 +167,8 @@ body {
   content: "";
   backround: #555;
   position: absolute;
-  left: 70px;
-  bottom: 25px;
+  left: 75px;
+  bottom: 26px;
   border:10px solid #555;
   display: none;
   border-color: #555 transparent transparent transparent;
