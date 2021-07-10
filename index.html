@@ -56,15 +56,10 @@
 				<h5 data-copyText="Click to Copy" style="border-style:solid" id="disctag" class="grid-bottom tooltip left" onclick="copyDiscTag()" onmouseout="resetCopy()"> FireboltAA#9999 </h5>
 			</div>
 			<script>
-			resetCopy() {
+			function resetCopy() {
 				var tooltipBefore = document.getElementById("disctag")
 				var tooltipMid = tooltipBefore.getAttribute("data-copyText")
 				tooltipMid.setAttribute("data-copyText", "Click to Copy")
-			}
-			function tooltipCopy() {
-				var tooltipBefore = document.getElementById("disctag")
-				var tooltipMid = tooltipBefore.getAttribute("data-copyText")
-				tooltipMid.setAttribute("data-copyText", "Copied!")
 			}
 			function copyDiscTag() {
 				navigator.clipboard.writeText("FireboltAA#3166")
