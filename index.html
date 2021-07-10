@@ -53,7 +53,7 @@
 			<a>
 			<div class="discord">
 				<h4 class="grid-top">Contact me <br> on Discord!</h4>
-				<h5 data-copyText="Click to Copy" style="border-style:solid" id="disctag" class="grid-bottom tooltip left" onclick="copyDiscTag()"> FireboltAA#9999 </h5>
+				<h5 data-copyText="Click to Copy" style="border-style:solid" id="disctag" class="grid-bottom tooltip left" onclick="copyDiscTag()" onmouseout="resetCopy()"> FireboltAA#9999 </h5>
 			</div>
 			<script>
 			resetCopy() {
@@ -67,7 +67,10 @@
 				tooltipMid.setAttribute("data-copyText", "Copied!")
 			}
 			function copyDiscTag() {
-				  navigator.clipboard.writeText("FireboltAA#3166")
+				navigator.clipboard.writeText("FireboltAA#3166")
+				var tooltipBefore = document.getElementById("disctag")
+				var tooltipMid = tooltipBefore.getAttribute("data-copyText")
+				tooltipMid.setAttribute("data-copyText", "Copied!")
 			}
 			function bigImg(x) {
   				  x.style.height = "85px";
