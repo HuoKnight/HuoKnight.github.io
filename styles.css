@@ -165,9 +165,11 @@ body {
 }
 .tooltip:after {
   content: "";
+  backround: #555;
   position: absolute;
-  left: 43px;
-  bottom: 45px;
+  left: 50px;
+  bottom: 35px;
   border:10px solid #000;
+  display: none;
   border-color: black transparent transparent transparent;
 }
