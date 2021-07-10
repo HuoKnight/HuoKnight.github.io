@@ -139,11 +139,10 @@ body {
 body {
 	font-family: 'Sarif';
 }
-.tooltip {
+.tooltiptext {
 	position: relative;
 }
-.tooltip:before {
-  content: attr(data-copyText);
+.tooltiptext:before {
   position:absolute;
   
   /* vertically center */
@@ -160,10 +159,10 @@ body {
 
   display:none; /* hide by default */
 }
-.tooltip:hover:before {
+.tooltiptext:hover:before {
   display:block;
 }
-.tooltip:after {
+.tooltiptext:after {
   content: "";
   backround: #555;
   position: absolute;
@@ -173,6 +172,6 @@ body {
   display: none;
   border-color: #555 transparent transparent transparent;
 }
-.tooltip:hover:before, .tooltip:hover:after {
+.tooltiptext:hover:before, .tooltip:hover:after {
   display:block;
 }
