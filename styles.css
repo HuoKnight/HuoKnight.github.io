@@ -128,6 +128,11 @@ body {
 	top: 150px;
 	left: 875px;
 }
+.fireboltaa {
+	font-size: 1vw;
+	border-style: solid;
+	display: block;
+}
 .grid-top {
   align-self: start;
   color: #5C62F8;
@@ -139,7 +144,7 @@ body {
 body {
 	font-family: 'Sarif';
 }
-.tooltiptext {
+.tooltip {
 	position: relative;
 }
 .tooltiptext:before {
