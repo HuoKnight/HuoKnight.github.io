@@ -143,7 +143,7 @@ body {
 	position: relative;
 }
 .tooltip:before {
-  content: "
+  content: attr(data-copyText);
   position:absolute;
   
   /* vertically center */
