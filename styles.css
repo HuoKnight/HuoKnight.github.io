@@ -128,11 +128,6 @@ body {
 	top: 150px;
 	left: 875px;
 }
-.fireboltaa {
-	font-size: 1vw;
-	border-style: solid;
-	display: block;
-}
 .grid-top {
   align-self: start;
   color: #5C62F8;
@@ -147,7 +142,7 @@ body {
 .tooltip {
 	position: relative;
 }
-.tooltiptext:before {
+.tooltip:before {
   position:absolute;
   
   /* vertically center */
@@ -164,10 +159,10 @@ body {
 
   display:none; /* hide by default */
 }
-.tooltiptext:hover:before {
+.tooltip:hover:before {
   display:block;
 }
-.tooltiptext:after {
+.tooltip:after {
   content: "";
   backround: #555;
   position: absolute;
@@ -177,6 +172,6 @@ body {
   display: none;
   border-color: #555 transparent transparent transparent;
 }
-.tooltiptext:hover:before, .tooltip:hover:after {
+.tooltip:hover:before, .tooltip:hover:after {
   display:block;
 }
