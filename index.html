@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -53,9 +54,7 @@
 			<a>
 			<div class="discord">
 				<h4 class="grid-top">Contact me <br> on Discord!</h4>
-				<div class="grid-bottom fireboltaa tooltip" id="disctag" onclick="copyDiscTag()"> FireboltAA#3166 
-					<a id="tooltiptext" class="tooltip">Click to Copy!</a>
-				</div>
+				<h5 data-copyText="Click to Copy" style="border-style:solid" id="disctag" class="grid-bottom tooltip left" onclick="copyDiscTag()" onmouseout="resetCopy()"> FireboltAA#3166 </h5>
 			</div>
 			<script>
 			function resetCopy() {
@@ -65,6 +64,9 @@
 			}
 			function copyDiscTag() {
 				navigator.clipboard.writeText("FireboltAA#3166")
+				let tooltipBefore = document.getElementById("disctag")
+				let tooltipMid = tooltipBefore.getAttribute("data-copyText")
+				tooltipMid.setAttribute("data-copyText", "Copied!")
 			}
 			function bigImg(x) {
   				  x.style.height = "85px";
@@ -109,4 +111,3 @@
 			</script>
 		</body>
 </html>
-
