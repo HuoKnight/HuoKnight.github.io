@@ -65,13 +65,12 @@
 			function copyDiscTag() {
 				navigator.clipboard.writeText("FireboltAA#3166")
 				let tooltipBefore = document.getElementById("disctag")
-				let tooltipMid = tooltipBefore.getAttribute("data-copyText")
-				tooltipMid.dataset.copyText = 'Copied!'
+				tooltipBefore.dataset.copyText = 'Copied!'
 			}
 			function bigImg(x) {
   				  x.style.height = "85px";
 				  x.style.width = "85px";
-			}
+			}	
 			function normalImg(x) {
 				  x.style.height = "75px";
 				  x.style.width = "75px";
