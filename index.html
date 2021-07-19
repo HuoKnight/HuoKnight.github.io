@@ -19,7 +19,7 @@
 				Cool People
 			</h2>
 			<a href="https://www.fireboltaa.miro.gg/pmc" target="_blank">
-				<img src="https://pipe.miroware.io/60ae7946ab37f801c2e5393d/fireboltaa.github.io/images/pmc_logo.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img pmc-pos1">
+				<img src="https://pipe.miroware.io/60ae7946ab37f801c2e5393d/fireboltaa.github.io/images/pmc_logo.png" onmouseover="bigImg(this, '85px', '85px')" onmouseout="normalImg(this, '75px', '75px')" class="img pmc-pos1">
 		        </a>
 			<a href="https://discord.gg/4gTXrfDZ6n" target="_blank">
 				<img src="https://pipe.miroware.io/60ae7946ab37f801c2e5393d/fireboltaa.github.io/images/timberforgepfp.png" onmouseover="bigImgTF(this)" onmouseout="normalImgTF(this)" class="img tim-for">
@@ -71,37 +71,13 @@
 				let tooltip = document.getElementById("disctag")
 				tooltip.setAttribute("data-copyText", "Copied!")
 			}
-			function bigImg(x) {
-  				  x.style.height = "85px";
-				  x.style.width = "85px";
+			function bigImg(x, h, w) {
+  				  x.style.height = h;
+				  x.style.width = w;
 			}	
-			function normalImg(x) {
-				  x.style.height = "75px";
-				  x.style.width = "75px";
-			}
-			function bigImgTF(x) {
-  				  x.style.height = "95px";
-				  x.style.width = "95px";
-			}
-			function normalImgTF(x) {
-				  x.style.height = "85px";
-				  x.style.width = "85px";
-			}
-			function bigImgYT(x) {
-  				  x.style.height = "75px";
-				  x.style.width = "130px";
-			}
-			function normalImgYT(x) {
-				  x.style.height = "65px";
-				  x.style.width = "120px";
-			}
-			function bigImgDD(x) {
-  				  x.style.height = "95px";
-				  x.style.width = "55px";
-			}
-			function normalImgDD(x) {
-				  x.style.height = "85px";
-				  x.style.width = "45px";
+			function normalImg(x, h, w) {
+				  x.style.height = h;
+				  x.style.width = w;
 			}
 			</script>
 		</body>
