@@ -13,10 +13,6 @@
 body {
   	font-family: 'Brush Script MT', cursive;
 }
-.popup-text {
-	content: "This website is meant for Desktop on fullscreen. I am not responsible for any lost brain cells using it otherwise.";
-	color: FireBrick;
-}
 .header {
   	border-radius: 15px 50px 30px;
   	background: #CFC400;
