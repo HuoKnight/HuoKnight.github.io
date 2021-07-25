@@ -26,6 +26,9 @@ body {
 body{
    	font-family: 'Blippo', fantasy;
 }
+.whiteText {
+	color: white;
+}
 .links {
        	width: 150px;
 	height: 25px;
