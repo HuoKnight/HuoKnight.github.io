@@ -58,9 +58,6 @@ text {
 	justify-content: center;
 	font-size: 1.5vw;
 }
-body {
-   	font-family: 'Blippo', fantasy;
-}
 .img {
        position: absolute;
        align-items: center;
