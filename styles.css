@@ -10,9 +10,6 @@
         0 11px 0 #888, 0 12px 0 #888,
         0 20px 30px rgba(132, 100, 100, 1);
 }
-body {
-  	font-family: 'Brush Script MT', cursive;
-}
 .header {
   	border-radius: 15px 50px 30px;
   	background: #CFC400;
