@@ -23,11 +23,17 @@ body {
 	align-items: center;
 	font-size:2vw;
 }
-body{
-   	font-family: 'Blippo', fantasy;
-}
 text {
     color: white;
+}
+.gen-background{
+	border-radius: 15px 15px 15px;
+	background: #39414D;
+	position: absolute;
+	padding: calc(2vw + 1px);
+	justify-content: center;
+	width: 1000px;
+	height: 7000px;
 }
 .links {
        	width: 150px;
