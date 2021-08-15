@@ -23,7 +23,7 @@
 text {
     color: white;
 }
-.gen-background{
+.gen-background1{
 	border-radius: 15px 15px 15px;
 	background: #39414D;
 	position: absolute;
@@ -32,8 +32,8 @@ text {
 	justify-content: center;
 	width: 500px;
 	height: 650px;
-	top: 50px;
-	left: 200px;
+	top: 100px;
+	left: 300px;
 }
 .links {
        	width: 160px;
