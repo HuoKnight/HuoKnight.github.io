@@ -31,7 +31,9 @@ text {
 	align-items: center;
 	justify-content: center;
 	width: 500px;
-	height: 800px;
+	height: 650px;
+	top: 50px;
+	left: 200px;
 }
 .links {
        	width: 160px;
