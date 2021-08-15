@@ -27,6 +27,8 @@ text {
 	border-radius: 15px 15px 15px;
 	background: #39414D;
 	position: absolute;
+	display: flex;
+	align-items: center;
 	padding: calc(2vw + 1px);
 	justify-content: center;
 	width: 1000px;
