@@ -29,7 +29,6 @@ text {
 	position: absolute;
 	display: flex;
 	align-items: center;
-	padding: calc(2vw + 1px);
 	justify-content: center;
 	width: 1000px;
 	height: 3000px;
