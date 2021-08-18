@@ -23,7 +23,7 @@
 text {
     color: white;
 }
-.gen-background1{
+.gen-background1 {
 	border-radius: 15px 15px 15px;
 	background: #5f6a7d;
 	position: absolute;
@@ -34,6 +34,24 @@ text {
 	height: 650px;
 	top: 125px;
 	left: 400px;
+}
+.gen-gridbox {
+	height:100vh;
+  	margin:0;
+  	display:grid;
+  	place-items:center;
+	padding:2rem;
+  	width:40vw;
+  	height:70vh;
+  	overflow-y:auto;
+  	display:grid;
+  	grid-template:auto / repeat(4, 1fr);
+  	gap:2rem;
+  	background-color:#eee;
+}
+.gen-gridbox-icon {
+	min-height:5rem;
+  	background-color:#ddd;
 }
 .links {
        	width: 160px;
