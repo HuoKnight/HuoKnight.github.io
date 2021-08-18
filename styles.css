@@ -36,7 +36,8 @@ text {
 	left: 400px;
 }
 .gen-gridbox {
-	height:100vh;
+	height:620px;
+	width: 480px;
   	margin:0;
   	display:grid;
   	place-items:center;
@@ -51,7 +52,7 @@ text {
 }
 .gen-gridbox-icon {
 	min-height:5rem;
-  	background-color:#ddd;
+  	background-color:#;
 }
 .links {
        	width: 160px;
