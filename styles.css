@@ -29,7 +29,6 @@ text {
 	position: absolute;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	width: 500px;
 	height: 650px;
 	top: 125px;
@@ -51,8 +50,8 @@ text {
   	background-color:#eee;
 }
 .gen-gridbox-icon {
-	height:5px;
-	width: 5px;
+	height:20px;
+	width: 20px;
   	background-color:#6CF542;
 }
 .links {
