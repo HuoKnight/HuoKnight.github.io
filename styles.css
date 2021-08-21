@@ -36,8 +36,8 @@ text {
 	left: 400px;
 }
 .gen-gridbox {
-	height:620px;
-	width: 480px;
+	height:500px;
+	width: 300px;
   	margin:0;
   	display:grid;
   	place-items:center;
