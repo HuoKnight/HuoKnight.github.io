@@ -52,6 +52,7 @@ text {
 }
 .gen-gridbox-icon {
 	min-height:5rem;
+	min-width: 5rem;
   	background-color:#6CF542;
 }
 .links {
